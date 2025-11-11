@@ -33,7 +33,7 @@ A entrega final deve conter:
 
 ---
 
-## 📈 Temas e Enunciados
+## 📈 Enunciado
 
 ### Tema 1 - Bissecção, Posição Falsa e Newton-Raphson
 
@@ -65,70 +65,4 @@ Modelagem do deslocamento da extremidade de um jato supersônico. O cálculo inc
 
 **Dados de saída:**
 - Quadros resposta (com d e erro para cada jato e método)
-- Quadro comparativo
-
-### Tema 2 -Newton-Raphson, Newton Modificado e Secante
-
-**Função:**
-> f(d) = a·eᵈ – 4·d²
-
-**Descrição:**
-Modelagem de oscilações sísmicas. O deslocamento excessivo (d > 0,7 m) representa risco de amplificação perigosa.  
-
-**Requisitos principais:**
-
-- Implementar os métodos:
-  - Newton-Raphson
-  - Newton Modificado
-  - Secante
-- Testar com:
-  - a = 1
-  - d₀ = 0,5  
-  - ε = 10⁻⁴
-- Gerar:
-  - Tabelas de resultados por método
-  - Quadro comparativo dos métodos 
-  - Análise da variação de `a`
-
-**Dados de entrada:**
-- n (número de valores de a)
-- a (para cada n)
-- ε (precisão)
-
-**Dados de saída:**
-- Quadros resposta (com d e erro para cada a e método)
-- Quadro comparativo
-
-### Tema 3 - Newton-Raphson, Newton Modificado com FL e Derivada Numérica de polinômios 
-
-**Função:**
-> f(d) = a₃·d³ – 9·a₂·d + 3
-
-**Descrição:**
-Simulação da oscilação de uma corda elástica. O deslocamento excessivo (d > 0,3 cm) pode causar ruptura.  
-
-**Requisitos principais:**
-
-- Implementar os métodos:
-  - Newton-Raphson
-  - Método de Newton com FL (para evitar f'(xk) = 0)
-  - Cálculo da derivada numérica de f(d)  
-- Testar com:
-  - a₃ = 1  
-  - a₂ = 1  
-  - d₀ = 0,5  
-  - λ = 0,05  
-  - ε = 0,001  
-- Gerar:
-  - Tabelas de resultados por método
-  - Quadro comparativo dos métodos 
-  - Análise da variação de a₃ e a₂
-
-**Dados de entrada:**
-- n (número de valores de a)
-- a (para cada n)
-- ε (precisão)
-
-**Dados de saída:**
-- Quadros resposta (com d e erro para cada a e método)
 - Quadro comparativo
