@@ -31,7 +31,7 @@ Result bisection(const std::function<double(double)>& f, double a, double b, dou
             std::cout << "f(x) = " << f(x) << "\n\n";
         }
         if((b - a) < epsilon){
-            return {x, k, true, std::abs(f(x)), std::abs(b-a)};
+            return {x, k, true, (f(x)), std::abs(b-a)};
         }
         // Escolha dos extremos do intervalo da próxima interação
         if(f(x) * f(a) > 0){

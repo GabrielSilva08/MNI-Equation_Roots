@@ -10,7 +10,7 @@ struct Result {
     double root; // x onde f(x) é próximo de 0
     int interations; // Número de interações realizadas
     bool converged; // Se o método atingiu a precisão requirida no número de interações especificado
-    double residual; // |f(root)|
+    double residual; // f(root)
     double error; 
 };
 
